@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+
+int high_temp = 10;
+int low_temp = 20;
+float avg = (high_temp + low_temp)/2;
+
+cout << avg;]

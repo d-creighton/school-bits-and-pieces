@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1582672075 source:c:\users\creig\documents\c++\calc_functions\main.cpp
+	<iostream>
+	<iomanip>
+	<string>
+

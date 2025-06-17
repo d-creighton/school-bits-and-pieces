@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1586221403 source:c:\users\creig\documents\c++\vowel test\main.cpp
+	<iostream>
+	<string>
+	<cstring>
+	<cctype>
+

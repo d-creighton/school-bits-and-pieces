@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1586234999 source:c:\users\creig\documents\c++\c-string new\main.cpp
+	<iostream>
+	<string>
+	<cstring>
+	<cctype>
+
