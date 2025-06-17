@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".checkers.CheckersActivity">
+
+
+
+    <TableLayout
+        android:layout_width="410dp"
+        android:layout_height="494dp"
+        android:layout_marginTop="167dp"
+        android:layout_marginBottom="117dp"
+
+        android:background="@drawable/checker"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TableRow
+            android:id="@+id/display_row1"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteY="172dp">
+
+            <TextView
+                android:id="@+id/textView0_0"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView0_1"
+                android:layout_width="52dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView0_2"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView0_3"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView0_4"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView0_5"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView0_6"
+                android:layout_width="50dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView0_7"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/display_row2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView1_0"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView1_1"
+                android:layout_width="52dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView1_2"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView1_3"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView1_4"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView1_5"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView1_6"
+                android:layout_width="50dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView1_7"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/display_row3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteY="295dp">
+
+            <TextView
+                android:id="@+id/textView2_0"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView2_1"
+                android:layout_width="52dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView2_2"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView2_3"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView2_4"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView2_5"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView2_6"
+                android:layout_width="50dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView2_7"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/display_row4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteY="357dp">
+
+            <TextView
+                android:id="@+id/textView3_0"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView3_1"
+                android:layout_width="52dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView3_2"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView3_3"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView3_4"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView3_5"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView3_6"
+                android:layout_width="50dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView3_7"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/display_row5"
+            android:layout_width="394dp"
+            android:layout_height="61dp"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteY="418dp">
+
+            <TextView
+                android:id="@+id/textView4_0"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView4_1"
+                android:layout_width="52dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView4_2"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView4_3"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView4_4"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView4_5"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView4_6"
+                android:layout_width="50dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView4_7"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/display_row6"
+            android:layout_width="394dp"
+            android:layout_height="63dp"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteY="478dp">
+
+            <TextView
+                android:id="@+id/textView5_0"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView5_1"
+                android:layout_width="52dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView5_2"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView5_3"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView5_4"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView5_5"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView5_6"
+                android:layout_width="50dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView5_7"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/display_row7"
+            android:layout_width="393dp"
+            android:layout_height="61dp"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteY="541dp">
+
+            <TextView
+                android:id="@+id/textView6_0"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView6_1"
+                android:layout_width="52dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView6_2"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView6_3"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView6_4"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView6_5"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView6_6"
+                android:layout_width="50dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView6_7"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/display_row8"
+            android:layout_width="394dp"
+            android:layout_height="63dp"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteY="602dp">
+
+            <TextView
+                android:id="@+id/textView7_0"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView7_1"
+                android:layout_width="52dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView7_2"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView7_3"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView7_4"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView7_5"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView7_6"
+                android:layout_width="50dp"
+                android:layout_height="64dp" />
+
+            <TextView
+                android:id="@+id/textView7_7"
+                android:layout_width="51dp"
+                android:layout_height="64dp" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textViewRed"
+        android:layout_width="183dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="225dp"
+        android:layout_marginBottom="612dp"
+
+        android:background="#EB3260"
+        android:text="Red Score:"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewBlue"
+        android:layout_width="180dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="615dp"
+        android:background="#57BFFF"
+        android:text="Blue Score:"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
