@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1585450595 source:c:\users\creig\documents\c++\mem allocation test\main.cpp
+	<iostream>
+	<new>
+
