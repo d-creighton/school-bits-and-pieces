@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1580762630 source:c:\users\creig\documents\purchase_total\main.cpp
+	<iostream>
+	<iomanip>
+
